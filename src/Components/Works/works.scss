@@ -1,0 +1,76 @@
+.video_works {
+  &-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 0;
+    &-items {
+      width: 48%;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      &:hover .work_info {
+        transform: translateY(0);
+      }
+      video {
+        width: 100%;
+        border-radius: 4px;
+        display: block;
+      }
+      .work_info {
+        position: absolute;
+        z-index: 5;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 100%;
+        width: 100%;
+        color: white;
+        text-align: center;
+        transform: translateY(100%);
+        transition: 0.5s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        .technologies {
+          padding: 10px;
+          .images {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+            img {
+              height: 30px;
+              width: 30px;
+            }
+          }
+        }
+        .name {
+          font-size: 25px;
+          font-weight: 600;
+        }
+        .description {
+          font-size: 18px;
+          font-weight: 500;
+        }
+        .tech {
+          font-size: 20px;
+        }
+        .adaptive {
+          font-size: 18px;
+        }
+        a {
+          font-size: 15px;
+          color: rgb(0, 145, 255);
+          text-decoration: underline;
+        }
+        .devises {
+          display: flex;
+          gap: 10px;
+        }
+      }
+    }
+  }
+}

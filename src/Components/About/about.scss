@@ -1,0 +1,116 @@
+.content_wrapper {
+  a {
+    color: inherit;
+  }
+  i {
+    position: relative;
+    padding: 20px;
+  }
+  i:before {
+    position: absolute;
+    content: "<body>";
+    bottom: 0;
+    left: 0px;
+  }
+  i:after {
+    content: "<html>";
+    position: absolute;
+    top: 0;
+    left: 0px;
+  }
+
+  h2 {
+    position: relative;
+    padding: 30px;
+    padding-left: 50px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 900;
+    &::before {
+      font-family: "Geo", sans-serif;
+      content: "<h2>";
+      font-size: 20px;
+      font-weight: 100;
+      opacity: 0.5;
+      position: absolute;
+      top: 0;
+      left: 30px;
+    }
+    &:after {
+      bottom: 0;
+      font-family: "Geo", sans-serif;
+      content: "</h2>";
+      opacity: 0.5;
+      left: 30px;
+      font-weight: 100;
+      font-size: 20px;
+      position: absolute;
+    }
+  }
+
+  p {
+    position: relative;
+    padding: 30px;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 60%;
+    .first,
+    .second {
+      font-family: "Geo", sans-serif;
+      font-weight: 100;
+      font-size: 20px;
+      position: absolute;
+    }
+    .first {
+      left: 30px;
+      top: 0;
+    }
+    .second {
+      left: 30px;
+      bottom: 0;
+    }
+  }
+  h1 {
+    width: 50%;
+    font-size: 48px;
+    position: relative;
+    padding: 30px;
+    padding-left: 50px;
+    margin-top: 20px;
+    font-weight: 900;
+    &::before {
+      font-family: "Geo", sans-serif;
+      content: "<h1>";
+      font-weight: 100;
+      font-size: 20px;
+      opacity: 0.5;
+      position: absolute;
+      top: 0;
+      left: 30px;
+    }
+    &:after {
+      bottom: 0;
+      font-family: "Geo", sans-serif;
+      content: "</h1>";
+      opacity: 0.5;
+      font-weight: 100;
+      left: 30px;
+      font-size: 20px;
+      position: absolute;
+    }
+  }
+  .body {
+    position: absolute;
+    bottom: 60px;
+    font-family: "Geo", sans-serif;
+    font-size: 20px;
+  }
+  .html {
+    position: absolute;
+    bottom: 30px;
+    font-family: "Geo", sans-serif;
+
+    font-size: 20px;
+  }
+}

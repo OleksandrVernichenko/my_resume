@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+*::before,
+::after {
+  font-family: "Geo", sans-serif;
+  font-size: 20px;
+  color: #80deea;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  user-select: none;
+}
+#root {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  .content_wrapper {
+    padding-left: 190px;
+    position: relative;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}

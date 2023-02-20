@@ -1,0 +1,38 @@
+{
+  "links": {
+    "about": "About",
+    "skill": "My Skills",
+    "work": "Works",
+    "contacts": "Contact"
+  },
+  "about": {
+    "h1": "Hi, I'm Oleksandr, Front-End Developer",
+    "first": "About Me",
+    "p1": "Well organised person, problem solver with high attention to detail. Fan of small planes, definitely, I'll get a PPL in future. Outdoor activities, leather crafting.",
+    "p2": "Interested in entire Front-End Developing, always ready to expand my knowledge.",
+    "link": "Let’s make something special."
+  },
+  "skills": {
+    "first": "Skills",
+    "p1": "My journey isn't too long, I've started in August 2022, and I've learnt HTML, CSS, SCSS, JS, React, Redux. Those skills were enough to build small and medium, easy to use, responsive and fast Pet-projects."
+  },
+  "works": {
+    "descr1": "Web App for selling ang buying cars",
+    "descr2": "A simple landing using React",
+    "descr3": "Simple SPA Web App for buying a house",
+    "descr4": "SPA React App about Electric Bikes",
+    "tech": "Technologies were used",
+    "adaptive": "Adaptive for",
+    "link": "Visit a website"
+  },
+  "form": {
+    "contact": "Contact Me",
+    "name": "Name",
+    "email": "Email",
+    "sub": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "alert": "Please, check information you are entered!",
+    "done": "Thank you for your message!"
+  }
+}

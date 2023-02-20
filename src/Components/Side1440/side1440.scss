@@ -1,0 +1,25 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  padding: 0;
+  top: 0;
+  gap: 30px;
+  &-router {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    a {
+      color: #909096;
+      font-weight: 600;
+    }
+  }
+  &-external {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

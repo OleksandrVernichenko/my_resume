@@ -1,0 +1,42 @@
+.form{
+    padding-bottom: 50px;
+    form {
+        padding: 30px;
+        padding-left: 50px;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        position: relative;
+        gap: 20px;
+        &::before {
+          font-family: "Geo", sans-serif;
+          content: "<form>";
+          font-weight: 100;
+          font-size: 20px;
+          opacity: 0.5;
+          position: absolute;
+          top: 0;
+          left: 30px;
+        }
+        &:after {
+          bottom: 0;
+          font-family: "Geo", sans-serif;
+          content: "</form>";
+          opacity: 0.5;
+          font-weight: 100;
+          left: 30px;
+          font-size: 20px;
+          position: absolute;
+        }
+        .name_email{
+          width: 100%;
+          display: flex;
+          gap: 20px;
+        }
+        button{
+          height: 50px;
+        }
+      }
+      
+}
