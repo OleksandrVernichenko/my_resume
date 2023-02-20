@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my_resume/static/css/main.e1163827.css",
+    "main.js": "/my_resume/static/js/main.cb8c3cad.js",
+    "static/media/bike.mov": "/my_resume/static/media/bike.e285989bace0203d015c.mov",
+    "static/media/care.mov": "/my_resume/static/media/care.adfc3572ce8c344c476b.mov",
+    "static/media/cottage.mov": "/my_resume/static/media/cottage.dc8ae0aae6ee9df397ed.mov",
+    "static/media/autohunt.mov": "/my_resume/static/media/autohunt.95ad3f62902bf68c7cfc.mov",
+    "static/media/react.png": "/my_resume/static/media/react.671d80fd66ff6f874dc0.png",
+    "static/media/redux.png": "/my_resume/static/media/redux.ebd470140c563f2b3d55.png",
+    "static/media/uk.png": "/my_resume/static/media/uk.3240c0070b2bf3338327.png",
+    "static/media/scss.png": "/my_resume/static/media/scss.5142a8200b9e059f1852.png",
+    "static/media/js.png": "/my_resume/static/media/js.c4c22b5d4d947523e006.png",
+    "static/media/heroku.png": "/my_resume/static/media/heroku.71d556c26cfd6519b84d.png",
+    "index.html": "/my_resume/index.html",
+    "static/media/getFetch.cjs": "/my_resume/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.e1163827.css.map": "/my_resume/static/css/main.e1163827.css.map",
+    "main.cb8c3cad.js.map": "/my_resume/static/js/main.cb8c3cad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1163827.css",
+    "static/js/main.cb8c3cad.js"
+  ]
+}
